@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "admin": "cd admin && npm run dev",
+    "dev": "concurrently -n \"BACKEND,FRONTEND,ADMIN\" -c \"green,blue,yellow\" \"npm run backend\" \"npm run frontend\" \"npm run admin\""
+  }
+}

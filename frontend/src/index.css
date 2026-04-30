@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+body {
+  background-color: #121212;
+  color: white;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slows {
+  animation: spin 15s linear infinite;
+}
+
+/* hover animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* IMPORTANT */
+.animate-spin-slow {
+  animation: spin 2.5s linear infinite;
+}
