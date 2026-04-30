@@ -32,7 +32,7 @@ export default function Navbar() {
 
             {/* LOGO */}
             <img
-                src="/src/assets/logo.png"
+                src="\public\logo.png"
                 alt="logo"
                 className="h-8 cursor-pointer"
                 onClick={() => navigate("/")}

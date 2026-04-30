@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 export function Footer() {
+  const navigate = useNavigate();
+
   return (
     <footer className=" bottom-0 left-0 w-full bg-[#121212]/90 backdrop-blur-xl border-t border-white/10 text-white z-50">
 
@@ -6,10 +10,11 @@ export function Footer() {
 
         {/* Left Section */}
         <div>
-          
+
           <img
-            src="src/assets/logo.png"
+            src="\public\logo.png"
             alt="Stylora"
+            onClick={() => navigate("/")}
             className="w-40 mb-6 opacity-90"
           />
 
