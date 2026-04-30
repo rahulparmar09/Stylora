@@ -12,7 +12,7 @@ export function Footer() {
         <div>
 
           <img
-            src="\public\logo.png"
+            src="https://stylora.dropletthemes.com/wp-content/themes/stylora/assets/images/logo/logo.png"
             alt="Stylora"
             onClick={() => navigate("/")}
             className="w-40 mb-6 opacity-90"

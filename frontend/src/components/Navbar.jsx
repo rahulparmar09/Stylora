@@ -32,7 +32,7 @@ export default function Navbar() {
 
             {/* LOGO */}
             <img
-                src="\public\logo.png"
+                src="https://stylora.dropletthemes.com/wp-content/themes/stylora/assets/images/logo/logo.png"
                 alt="logo"
                 className="h-8 cursor-pointer"
                 onClick={() => navigate("/")}
